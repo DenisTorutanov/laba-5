@@ -1,1 +1,4 @@
-# laba-5
+Вариант №15
+Формируется матрица F следующим образом: скопировать в нее А и  если в Е количество чисел, больших К в четных столбцах больше, чем сумма чисел в нечетных строках, то поменять местами С и Е симметрично, иначе В и С поменять местами несимметрично. При этом матрица А не меняется. После чего если определитель матрицы А больше суммы диагональных элементов матрицы F, то вычисляется выражение: A*AT – K * FТ, иначе вычисляется выражение (AТ +G-1-F-1)*K, где G-нижняя треугольная матрица, полученная из А. Выводятся по мере формирования А, F и все матричные операции последовательно.
+
+Matrix F is formed: aggregates within A and if in E the number of numbers greater than K in even columns is greater than the sums of numbers in odd rows, then C and E are interchanged symmetrically, otherwise B and C are interchanged asymmetrically. In this case, the matrix A does not change. After that, if a matrix is ​​defined, then the expression is calculated: A * AT - K * FT, otherwise the expression (AT + G-1-F-1) * K is calculated, where G is the lower triangular matrix obtained from A. You use as the formation of A, F and all matrix operations sequentially.
